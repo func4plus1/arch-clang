@@ -6,6 +6,8 @@ use clang
 
 clang++ -Wall -std=c++11 foo.cc -o foo
 
+./foo
+
 output llvm ir: 
 
 clang -S -emit-llvm foo.c
